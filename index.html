@@ -7,6 +7,7 @@
     <title>Bamora Bag</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,7 +17,8 @@
         <div class="container">
 
             <a class="navbar-brand fw-bold" href="#">
-                BAMORA BAG
+                <img src="assets/logo.jpeg"
+                        class="img-fluid rounded-4" alt="Tas">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -96,7 +98,7 @@
 
                 <div class="col-lg-6 text-center">
 
-                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+                    <img src="assets/hero.jpeg"
                         class="img-fluid rounded-4" alt="Tas">
 
                 </div>
@@ -125,38 +127,139 @@
 
             <div class="row g-4">
 
-                <div class="col-md-6 col-lg-3">
+    <!-- Lumina -->
+    <div class="col-md-6">
 
-                    <div class="card h-100">
+        <div class="card h-100">
 
-                        <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=500"
-                            class="card-img-top">
+            <div id="luminaCarousel" class="carousel slide">
 
-                        <div class="card-body">
+                <div class="carousel-inner">
 
-                            <h5 class="card-title">
-                                Elegant Bag
-                            </h5>
+                    <div class="carousel-item active">
+                        <img src="assets/produk1.jpeg"
+                            class="card-img-top"
+                            alt="Lumina 1">
+                    </div>
 
-                            <p class="text-muted">
-                                Rp250.000
-                            </p>
-
-                            <a href="cart.html" class="btn btn-dark w-100">
-                                Tambah Keranjang
-                            </a>
-
-                        </div>
-
+                    <div class="carousel-item">
+                        <img src="assets/produk2.jpeg"
+                            class="card-img-top"
+                            alt="Lumina 2">
                     </div>
 
                 </div>
 
-                <!-- Nanti copy card ini 3x lagi -->
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#luminaCarousel"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#luminaCarousel"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Bamora Lumina
+                </h5>
+
+                <p class="text-muted">
+                    Tas handmade elegan untuk aktivitas sehari-hari.
+                </p>
+
+                <a href="cart.html"
+                    class="btn btn-dark w-100">
+
+                    Tambah Keranjang
+
+                </a>
 
             </div>
 
         </div>
+
+    </div>
+
+    <!-- Vento -->
+    <div class="col-md-6">
+
+        <div class="card h-100">
+
+            <div id="ventoCarousel" class="carousel slide">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="assets/produk3.jpeg"
+                            class="card-img-top"
+                            alt="Vento 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/produk4.jpeg"
+                            class="card-img-top"
+                            alt="Vento 2">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#ventoCarousel"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#ventoCarousel"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Bamora Vento
+                </h5>
+
+                <p class="text-muted">
+                    Tas handmade modern dengan desain premium.
+                </p>
+
+                <a href="cart.html"
+                    class="btn btn-dark w-100">
+
+                    Tambah Keranjang
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
     </section>
 
@@ -164,7 +267,7 @@
     <footer class="py-4 text-center">
 
         <p class="mb-0">
-            © 2026 Handmade Bag. All Rights Reserved.
+            © 2026 Bamora. All Rights Reserved.
         </p>
 
     </footer>
